@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MF0 version="1.1" packageUris="http://schema.mathworks.com/mf0/meta/19700101 http://schema.mathworks.com/mf0/systemcomposer_property/2.13 http://schema.mathworks.com/mf0/systemcomposer_services_proxy/1.2">
+  <systemcomposer.profile.Profile type="systemcomposer.profile.Profile" uuid="b42c7b23-1266-47c2-8173-aee18a9fab70">
+    <prototypes type="systemcomposer.profile.Prototype" uuid="d5b4da06-88cc-4f87-a9d5-292e2d4f72fb">
+      <appliesTo>Connector</appliesTo>
+      <connectorLineColor type="systemcomposer.profile.RGBValueStruct">
+        <RED>255</RED>
+      </connectorLineColor>
+      <p_Name>Energy_Flow</p_Name>
+      <defaultStereotypeMap type="systemcomposer.profile.DefaultStereotypeMap" uuid="5778a5d8-3416-48d5-921a-5443df0377d8"/>
+      <metaAttributes type="mf.zero.meta.AttributeMap" uuid="e608e0db-dd1e-4bcf-a143-98d436a82175"/>
+      <propertySet type="systemcomposer.property.PropertySet" uuid="a08cdca7-250f-495e-8464-906b5f30fcb7">
+        <p_Name>Energy_Flow</p_Name>
+        <elemProxy type="systemcomposer.services.proxy.ProxyTarget" uuid="c3f7bc45-89b3-4742-a336-259b6b931ec7"/>
+      </propertySet>
+      <elemProxy type="systemcomposer.services.proxy.ProxyTarget" uuid="e5a9c45e-9221-4a7f-865d-0377cd51e0ee"/>
+    </prototypes>
+    <prototypes type="systemcomposer.profile.Prototype" uuid="f37b8100-c6ff-471b-8c5d-57226ff15983">
+      <appliesTo>Connector</appliesTo>
+      <connectorLineColor type="systemcomposer.profile.RGBValueStruct">
+        <BLUE>255</BLUE>
+      </connectorLineColor>
+      <connectorLineStyle>DASH</connectorLineStyle>
+      <p_Name>Information_Flow</p_Name>
+      <defaultStereotypeMap type="systemcomposer.profile.DefaultStereotypeMap" uuid="e4d36467-0500-4aac-8a1c-f2a325dcdba1"/>
+      <metaAttributes type="mf.zero.meta.AttributeMap" uuid="6166b368-c2cc-4b6f-bca9-a4365a5603e8"/>
+      <propertySet type="systemcomposer.property.PropertySet" uuid="62ef81d7-1505-4186-a72b-c41c3c5649cf">
+        <p_Name>Information_Flow</p_Name>
+        <elemProxy type="systemcomposer.services.proxy.ProxyTarget" uuid="1d2b3051-e9f5-413d-a177-84882721c11a"/>
+      </propertySet>
+      <elemProxy type="systemcomposer.services.proxy.ProxyTarget" uuid="779fd456-2d1d-428b-b32b-b112a70db37d"/>
+    </prototypes>
+    <prototypes type="systemcomposer.profile.Prototype" uuid="807ec3da-6041-4a18-a60a-6148316b2ef4">
+      <appliesTo>Connector</appliesTo>
+      <connectorLineColor type="systemcomposer.profile.RGBValueStruct">
+        <BLUE>34</BLUE>
+        <GREEN>71</GREEN>
+        <RED>122</RED>
+      </connectorLineColor>
+      <p_Name>Mechanical_Power</p_Name>
+      <defaultStereotypeMap type="systemcomposer.profile.DefaultStereotypeMap" uuid="312854a2-b7f0-421a-a63a-66dbb3e8c83e"/>
+      <metaAttributes type="mf.zero.meta.AttributeMap" uuid="22a30f8c-c7bf-4e7f-94f4-9f7096eff379"/>
+      <propertySet type="systemcomposer.property.PropertySet" uuid="79c7a20f-0c52-49d8-ac80-ffbbaaac2e9e">
+        <p_Name>Mechanical_Power</p_Name>
+        <elemProxy type="systemcomposer.services.proxy.ProxyTarget" uuid="555e67db-dc68-4974-ab40-05c4d704f131"/>
+      </propertySet>
+      <elemProxy type="systemcomposer.services.proxy.ProxyTarget" uuid="320d48b7-17d5-49b6-8d57-3d72ffd771dc"/>
+    </prototypes>
+    <valueTypes type="systemcomposer.property.BooleanType" uuid="2d2f7f24-7cc1-4adb-bc3e-0c3c7b47dfce">
+      <p_Name>boolean</p_Name>
+    </valueTypes>
+    <valueTypes type="systemcomposer.property.FloatType" uuid="1c76d0fd-7c2b-4c8a-8ad1-b0594314bfa2">
+      <max>1.7976931348623157e+308</max>
+      <min>-1.7976931348623157e+308</min>
+      <p_Name>double</p_Name>
+    </valueTypes>
+    <valueTypes type="systemcomposer.property.IntegerType" uuid="cec27156-e9a8-4f4c-baff-90f86a6a9bf6">
+      <max>32767</max>
+      <min>-32768</min>
+      <p_Name>int16</p_Name>
+    </valueTypes>
+    <valueTypes type="systemcomposer.property.IntegerType" uuid="18d7c710-bc21-47cf-bc46-63d9f6a2a093">
+      <max>2147483647</max>
+      <min>-2147483648</min>
+      <p_Name>int32</p_Name>
+    </valueTypes>
+    <valueTypes type="systemcomposer.property.IntegerType" uuid="a3145b00-1569-4b6b-8598-974c9c183d36">
+      <max>9223372036854775807</max>
+      <min>-9223372036854775808</min>
+      <p_Name>int64</p_Name>
+    </valueTypes>
+    <valueTypes type="systemcomposer.property.IntegerType" uuid="10e5037e-3c7d-4738-8502-fa733e147a18">
+      <max>127</max>
+      <min>-128</min>
+      <p_Name>int8</p_Name>
+    </valueTypes>
+    <valueTypes type="systemcomposer.property.FloatType" uuid="9416255a-7bff-446d-a916-4cd23d6d2b3e">
+      <max>3.4028234663852886e+38</max>
+      <min>-3.4028234663852886e+38</min>
+      <p_Name>single</p_Name>
+    </valueTypes>
+    <valueTypes type="systemcomposer.property.StringType" uuid="d83038a2-f46f-4bf5-b322-1f6075892886">
+      <p_Name>string</p_Name>
+    </valueTypes>
+    <valueTypes type="systemcomposer.property.StringArrayType" uuid="41c02d7e-f9be-494a-92ea-4aff491d0411">
+      <p_Name>stringArray</p_Name>
+    </valueTypes>
+    <valueTypes type="systemcomposer.property.IntegerType" uuid="ea53b85d-f471-4fac-a6a2-baab43413a9f">
+      <max>65535</max>
+      <min>0</min>
+      <p_Name>uint16</p_Name>
+    </valueTypes>
+    <valueTypes type="systemcomposer.property.IntegerType" uuid="32acbd52-7eaf-4b8f-9ee1-1f6adf19f65d">
+      <max>4294967295</max>
+      <min>0</min>
+      <p_Name>uint32</p_Name>
+    </valueTypes>
+    <valueTypes type="systemcomposer.property.IntegerType" uuid="b7d5f17e-f34b-4cd4-b941-4687e0523d1e">
+      <max>9223372036854775807</max>
+      <min>0</min>
+      <p_Name>uint64</p_Name>
+    </valueTypes>
+    <valueTypes type="systemcomposer.property.IntegerType" uuid="f86e1a07-339e-45e5-8ae3-52f99932275d">
+      <max>255</max>
+      <min>0</min>
+      <p_Name>uint8</p_Name>
+    </valueTypes>
+    <p_Name>EScooter_Standard</p_Name>
+    <elemProxy type="systemcomposer.services.proxy.ProxyTarget" uuid="6189b895-158f-41ed-833a-ec6bde91ceb7"/>
+  </systemcomposer.profile.Profile>
+  <systemcomposer.services.proxy.ModelIdentifier type="systemcomposer.services.proxy.ModelIdentifier" uuid="6bfb3b8c-6b7b-4d6d-9685-c73d8eccc66e">
+    <URI>EScooter_Standard</URI>
+    <modelType>PROFILE_MODEL</modelType>
+  </systemcomposer.services.proxy.ModelIdentifier>
+  <systemcomposer.property.UnitQueryClientWrapper type="systemcomposer.property.UnitQueryClientWrapper" uuid="82606cdd-0f7e-4a44-8657-8a9f79363b10"/>
+</MF0>
