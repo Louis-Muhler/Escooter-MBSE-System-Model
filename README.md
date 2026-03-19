@@ -28,9 +28,17 @@ The repository is structured along a standard Systems Engineering V-Model approa
 * MATLAB & Simulink (Base Platform & Simulation)
 * System Composer (Architecture Modeling)
 * Requirements Toolbox (Requirements Management & Traceability)
+* Test Manager (Development of a Test Suite for the Model)
 
 ## Development Team
 * Victoria Einike
 * Louis Muhler
 * Jonas Münz
 * Tim Schäfer
+
+## Requirements Document
+* Functional & Non-functional Requirements
+* Requirements for a SOC (State of Charge) closed-loop Controller
+* Documentation of the system design of the drive and brake system
+
+[Link to the Document](https://docs.google.com/document/d/17kE1spIPbMcMPmFW8gmGi6Rty6_xYhV3JK4qTY1hySg/edit?usp=sharing)
