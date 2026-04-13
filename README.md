@@ -41,4 +41,4 @@ The repository is structured along a standard Systems Engineering V-Model approa
 * Requirements for a SOC (State of Charge) closed-loop Controller
 * Documentation of the system design of the drive and brake system
 
-[Link to the Document](https://docs.google.com/document/d/17kE1spIPbMcMPmFW8gmGi6Rty6_xYhV3JK4qTY1hySg/edit?usp=sharing)
+[Link to the Document]([https://docs.google.com/document/d/17kE1spIPbMcMPmFW8gmGi6Rty6_xYhV3JK4qTY1hySg/edit?usp=sharing](https://github.com/Louis-Muhler/Escooter-MBSE-System-Model/blob/main/Documentation(Requirement%20Spec%20System%20und%20Regler%2C%20Auslegung%2C%20Validierung).pdf))
